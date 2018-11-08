@@ -1,5 +1,5 @@
 
-# MAP (Maximum A Posteriori ) Estimation 
+# Maximum A Posteriori (MAP) Estimation 
 
 ## Introduction
 
@@ -9,8 +9,8 @@
 
 You will be able to:
 * Understand and explain the difference between MLE and MAP
-* Evaluate the role of prior into the MAP equation , for a Bayesian estimation
-* Understand how for beta distribution priors, the MAP is equal to MLE. 
+* Evaluate the role of prior into the MAP equation, for a Bayesian estimation
+* Understand how for beta distribution priors, the MAP is equal to MLE
 
 ## MLE - A quick recap
 
