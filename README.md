@@ -14,9 +14,7 @@ You will be able to:
 
 ## MLE - A quick recap
 
-MLE, as we, who have already indulge ourselves in Machine Learning, would be familiar with this method. Sometimes, we even use it without knowing it. Take for example, when fitting a Gaussian to our dataset, we take the sample mean / variance as the parameter of our Gaussian. This is MLE, as, if we take the derivative of the Gaussian function with respect to the mean and variance, and maximizing it (i.e. setting the derivative to zero), what we get is functions that are calculating sample mean and sample variance. Another example, most of the optimization in Machine Learning and Deep Learning (neural net, etc), could be interpreted as MLE. 
-
-
+We have used the concept of MLE before. For example, if you want to fit a normal distribution to your data, you can take the sample mean and variance as the parameters associated with this normal distribution. This is in fact exactly what you are doing when using Maximum Likelihood Estimation: you are in fact trying to find parameters associated with (simple or even very complex) distrubtions.
 
 
 Here's a quick summary of what we now know, let’s say we have a likelihood function $P(X|θ)$ i.e. the MLE for theta, given the data (X), then parameter we want to infer is:
