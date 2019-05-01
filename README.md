@@ -38,7 +38,7 @@ ONce we understand how MLE works, we can move on to understand the  MAP estimati
 **With Bayes’ rule, the posterior is a product of likelihood and prior** :
 
 \begin{align}
-    P(\theta|X) = \frac{P(X|\theta)P(X)}{P(\theta)} ~~~~ \text{this follows from Bayes' Theorem of conditional probabilities}
+    P(\theta|X) = \frac{P(X|\theta)P(\theta)}{P(X)} ~~~~ \text{this follows from Bayes' Theorem of conditional probabilities}
 \end{align}
 
 \begin{align}
